@@ -6,7 +6,15 @@ LSTM(units=100)
 Dense(units=20, activation='relu')   
 Dense(units=1, activation='linear')     # Regression problem    
 
-
+Folder structure:   
+* data   
+  * q2_dataset.csv   
+  * test_data_RNN.csv   
+  * train_data_RNN.csv   
+* models   
+  * saved model   
+* test_RNN.py   
+* train_RNN.py
 
 The predicting results show as below
 ![Image text](stock.png)
